@@ -1,0 +1,41 @@
+data/
+.venv
+
+
+# Object and compiled files
+*.o
+*.obj
+*.lo
+*.slo
+
+# CUDA specific / NVRTC / Clang / NVCC outputs
+*.cubin
+*.fatbin
+*.ptx
+*.gpu
+*.cuda
+
+# Libraries
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Precompiled headers and debug files
+*.gch
+*.pch
+*.pdb
+*.ilk
+
+# Build directories
+build/
+Build/
+build-*/
+
+test/
